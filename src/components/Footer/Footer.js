@@ -3,6 +3,7 @@ import DenimPant from '../../images/pants/DenimFold1.jpg';
 import facebook from '../../images/socialMedia/facebook.png';
 import instagram from '../../images/socialMedia/instagram.png';
 import youtube from '../../images/socialMedia/youtube.png';
+import whatsapp from '../../images/socialMedia/whatsapp.png';
 
 
 
@@ -26,19 +27,25 @@ const Footer = () => {
 
                     <div className=''>
                         <a href='https://www.facebook.com/fahim.sakib.5' target='blank' className='tooltip' data-tip='Facebook'>
-                            <img className='w-[56px] rounded-md' src={facebook} alt="FacebookImage" />
+                            <img className='w-[56px] rounded-md hover:scale-105 hover:-translate-y-2 ease-in-out delay-200 duration-200' src={facebook} alt="FacebookImage" />
                         </a>
                     </div>
 
                     <div className=''>
                         <a href='https://www.instagram.com/i_fahiim/' target='blank' className='tooltip' data-tip='Instagram'>
-                            <img className='w-[56px] rounded-md' src={instagram} alt="InstagramImage" />
+                            <img className='w-[56px] rounded-md hover:scale-105 hover:-translate-y-2 ease-in-out delay-200 duration-200' src={instagram} alt="InstagramImage" />
                         </a>
                     </div>
 
                     <div className=''>
                         <a href='https://www.youtube.com/' target='blank' className='tooltip' data-tip='Youtube'>
-                            <img className='w-[56px] rounded-md' src={youtube} alt="YoutubeImage" />
+                            <img className='w-[56px] rounded-md hover:scale-105 hover:-translate-y-2 ease-in-out delay-200 duration-200' src={youtube} alt="YoutubeImage" />
+                        </a>
+                    </div>
+
+                    <div className=''>
+                        <a href='https://www.whatsapp.com/' target='blank' className='tooltip' data-tip='WhatsApp'>
+                            <img className='-ml-1 w-[78px] rounded-md hover:scale-105 hover:-translate-y-2 ease-in-out delay-200 duration-200' src={whatsapp} alt="WhatsAppImage" />
                         </a>
                     </div>
 
