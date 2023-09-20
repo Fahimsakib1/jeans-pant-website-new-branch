@@ -1,0 +1,6 @@
+/* Sticky state with margin-top */
+.sticky {
+    position: sticky;
+    top: 15px;
+    z-index: 10;
+}
