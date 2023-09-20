@@ -1,10 +1,12 @@
-
 import './App.css';
+import LandingPage from './components/LandingPage/LandingPage';
+import SecondPage from './components/SecondPage/SecondPage';
 
 function App() {
   return (
     <div className="App">
-      <h1 className='text-5xl text-center my-28'>Hello World</h1>
+      <LandingPage></LandingPage>
+      <SecondPage></SecondPage>
     </div>
   );
 }
