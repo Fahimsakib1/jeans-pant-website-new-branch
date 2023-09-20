@@ -11,10 +11,6 @@ import { BsArrowRight } from 'react-icons/bs';
 const SecondPage = () => {
     return (
         <div className='mt-28'>
-            {/* <div className=' relative ml-[133px] mt-20 bg-gray-300 rounded-t-full w-[470px] rounded-md py-60'>
-
-            </div> */}
-
             <div className=' relative ml-[133px] mt-20 bg-gray-300  w-[320px] rounded-full py-60'>
 
             </div>
