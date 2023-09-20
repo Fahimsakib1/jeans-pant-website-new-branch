@@ -1,7 +1,4 @@
-# New Branch
+# This is Main Branch
 
-
-### Live Website
-
-Live Website link : https://jeans-website-design.netlify.app/
+### All files are added to the New Branch
 
